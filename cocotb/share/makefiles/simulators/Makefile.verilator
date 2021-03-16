@@ -40,7 +40,7 @@ ifeq ($(VERILATOR_TRACE),1)
   EXTRA_ARGS += --trace --trace-structs
 endif
 
-EXTRA_ARGS += --timescale $(COCOTB_HDL_TIMEUNIT)/$(COCOTB_HDL_TIMEPRECISION)
+#EXTRA_ARGS += --timescale $(COCOTB_HDL_TIMEUNIT)/$(COCOTB_HDL_TIMEPRECISION)
 
 SIM_BUILD_FLAGS += -std=c++11
 
